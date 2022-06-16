@@ -1,0 +1,114 @@
+body{
+    background: linear-gradient(to left, #00ccff 0%, #ff66cc 100%);
+}
+nav{
+    height: 60px;
+    width: auto;
+    background: linear-gradient(to left, #ff66cc 0%, #00ccff 100%);
+    left: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:20;
+    }
+.logo{
+    height: 60px;
+    float: left;
+}
+ul{
+    float: right;
+    padding-right: 60px;
+
+}
+ul li{
+    display: inline;
+    margin: 0 20px;  
+}
+ul li a{
+    text-decoration: none;
+    color:  darkslategray;
+    font-family: Arial;
+    font-size: 25px;
+}
+ul li a:hover{
+    color: palevioletred;
+}
+
+
+.siva{
+    margin:auto;
+   padding-top: 30px;
+   padding-left: 20px;
+   background-color: #f2f2f2;
+   border-radius: 10px;
+   height: 400px;
+   width: 1200px;
+}
+
+.prv{
+   float:left;
+   left: 20px;
+   display: inline-block;
+}
+
+input{
+   display: inline-block;
+   height: 36px;
+   width: 555px;
+   border-radius: 3px;
+   border-color: #dbdbdb ;
+   border: solid 1px #dbdbdb;
+}
+
+#zemja{
+   display: inline;
+   height: 36px;
+   width: 555px;
+   border-radius: 3px;
+   border-color: #dbdbdb ;
+   border: solid 1px #dbdbdb;
+}
+#del2{
+   display: inline-block;
+   float: right;
+}
+textarea{
+
+   border-radius: 3px;
+   border-color: #dbdbdb ;
+   border: solid 1px #dbdbdb;
+}
+.sumbit{
+   background-color:  #04aa6d;
+   border-color: #7ddf96;
+   color: white;
+   display: inline;
+   display: inline;
+   height: 40px;
+   width: 350px;
+   border-radius: 3px;
+   margin-left: 500px;
+}
+value{
+   color: grey;
+}
+#footer {
+    bottom:0;
+    width:100%;
+    height:50px; 
+    background:#6cf;
+    left: 0;
+
+    position: fixed;
+    width: 100%;
+    z-index:20;
+ }
+.insta{
+    float: right;
+height: 60px;
+width: 60px;
+margin-bottom: 15px;
+}
